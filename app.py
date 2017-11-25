@@ -379,7 +379,6 @@ def ping(bot, update):
 
 def error(bot, update, error):
     logger.warn('Update "%s" caused error "%s"' % (update, error))
-    sys.exit()
 
 def main():
     updater = Updater(token)
