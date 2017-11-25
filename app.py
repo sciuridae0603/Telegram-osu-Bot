@@ -19,8 +19,8 @@ logger = logging.getLogger(__name__)
 cache = {}
 
 #Config
-token = "251792092:AAFprg8su3rg9qdBrz7SHvYfDLOLSMnDvIY"
-osu_api_token = "b3a370a463fc73e4b3e7bb4f8fdea29aa5643691"
+token = "Telegram_Token_Here"
+osu_api_token = "OSU_API_Token_Here"
 
 #keyboards
 menu_keyboard = InlineKeyboardMarkup([  [InlineKeyboardButton("Player info", callback_data='userinfo')],
